@@ -4,9 +4,9 @@ import { Link, NavLink } from 'react-router';
 const Navbar = () => {
     const links = <>
         <NavLink to='/' className={({ isActive }) => isActive ? 'btn bg-green-500 text-white border-none' : 'btn border-none mx-2'}>Home</NavLink>
+        <NavLink to='readList' className={({ isActive }) => isActive ? 'btn bg-green-500 text-white border-none' : 'btn border-none mx-2'}>Read List</NavLink>
 
-        <Link to='/' className='btn border-none mx-2'>Listed Books</Link>
-        <Link to='/' className='btn border-none mx-2 '>Pages to Read</Link>
+
     </>
     return (
         <div>
